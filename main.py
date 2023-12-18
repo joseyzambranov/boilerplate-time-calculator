@@ -2,10 +2,8 @@
 from time_calculator import add_time
 from unittest import main
 
-print("11:06 PM", "2:02")
-
-print(add_time("11:06 PM", "2:02"))
+print(add_time("11:55 AM", "3:12"))
 
 
 # Run unit tests automatically
-#main(module='test_module', exit=False)
+main(module='test_module', exit=False)
